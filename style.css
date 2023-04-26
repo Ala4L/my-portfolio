@@ -1,3 +1,39 @@
 html {
-    background-color: azure;
+    background-image: url(background.jpg);
+    background-size: cover;
+      }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header li {
+    display: inline-block;
+    list-style: none;
+    }
+    li {
+        margin: 30px;
+    }
+    
+  h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px midnightblue;
+  }
+  h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-style: italic;
+    
+  }
+  .profimg {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
   }
