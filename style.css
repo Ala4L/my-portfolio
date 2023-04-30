@@ -1,6 +1,6 @@
 html {
     background-image: url(background.jpg);
-    background-size: 1520px 1220px;
+    background-size: cover;
       }
 
   .header {
@@ -10,7 +10,8 @@ html {
   .header li {
     display: inline-block;
     list-style: none;
-    margin: 35px;
+    margin: 10px 80px 20px 80px;
+
     }
         
     
@@ -27,6 +28,7 @@ html {
 
   h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
 
   h4 {
@@ -45,68 +47,99 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 3px;
+    margin-bottom: 30px;
   }
-  /*.grid {
+  .grid {
     display: grid;  
-    max-width: 800px;
     position:relative;
     margin: auto;
-    row-gap: 20px;
-    column-gap: 120px;
-    grid-template-areas: "aboutme aboutme"
-                         "mywork contactme";
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 250px 250px;
+    column-gap: 100px;
+    grid-template-areas: "mywork aboutme contactme";
+    grid-template-columns: 300px 450px 300px;
+    grid-template-rows: 300px;
     justify-content: center;
 
   }
  .aboutme {
     grid-area: aboutme;
-    grid-column: 1 / span 2;
+    background-color: #6EB5C0;
+    padding-left: 40px;
+    padding-right: 40px;
 
  }
  .mywork {
     grid-area: mywork;
+    background-color: #FFCCBB;
+    padding-left: 40px;
+    padding-right: 40px;
 
  }
  .contactme {
     grid-area: contactme;
+    background-color: #006C84;
+    padding-left: 40px;
+    padding-right: 40px;
 
- }*/
+ }
 
-  .aboutme {
+ .footer {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    padding-left: 400px;
-    padding-right: 472px;
-    margin-top: 30px;
-  }
-  p {
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    background-color: #E2EBE4;
+ }
+ p {
     font-size: 18px;
     text-align: justify;
+ }
+
+  /*.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding-left: 10px;
+    padding-right: 100px;
+    margin-top: 30px;
+    margin-left: 380px;
+    margin-right: 450px;
+    background-color: rgb(255, 255, 255, 0.3);
+    
+  }
+  
   }
   .mywork {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 10px;
+    padding-right: 60px;
     margin-top: 30px;
+    margin-left: 380px;
+    margin-right: 450px;
+    background-color: rgb(155, 215, 209, 0.3);
+    
+    
+   
   }
   
   .contactme {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 10px;
+    padding-right: 60px;
     margin-top: 30px;
-  }
+    margin-left: 380px;
+    margin-right: 450px;
+    background-color: rgb(50, 93, 121, 0.4);
+    
+  }*/
   a:link {
-    color: midnightblue;
     text-decoration: none;   
     font-style: italic;
+
   }
   a:visited {
     color: midnightblue;
