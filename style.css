@@ -9,7 +9,7 @@ html {
   .header li {
     display: inline-block;
     list-style: none;
-    margin: 10px 80px 20px 80px;
+    margin: 10px 60px 20px 60px;
 
     }
         
@@ -53,21 +53,35 @@ html {
     display: grid;  
     position:relative;
     margin: auto;
-    column-gap: 100px;
-    grid-template-areas: "mywork aboutme contactme";
-    grid-template-columns: 340px 450px 340px;
-    grid-template-rows: 300px;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-areas: "aboutme aboutme aboutme"
+                        "experience mywork contactme";
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px;
     justify-content: center;
 
   }
  .aboutme {
     grid-area: aboutme;
+    grid-column: span 3;
     background-color: azure;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
+    margin-left: 200px;
+    margin-right: 200px;
 
  }
+ .experience {
+    grid-area: experience;
+    background-color: azure;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5%;
+ }
+ 
+
  .mywork {
     grid-area: mywork;
     background-color: #B6D0E2;
