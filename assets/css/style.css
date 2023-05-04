@@ -1,6 +1,6 @@
 html {
-    background-image: url("background1.jpg");
-    background-size: cover;
+  background-image: url("../image/background1.jpg");
+  background-size: cover;
 }
   .header {
     display: flex;
