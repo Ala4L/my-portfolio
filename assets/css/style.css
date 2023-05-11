@@ -1,27 +1,33 @@
 body {
-  background-image: url("../image/background1.jpg");
+  background-image: url("../image/a2c6c7f46929b98b6bd2c8508b92dcb2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  
   
 }
        
     
-  h1 {
-    text-transform: uppercase;
-    color: midnightblue;
-    font-family: 'Palatino', sans-serif;
-    font-weight: bold;
-    
-  }
-
   h2 {
-
+    text-transform: uppercase;
+    color: rgb(25, 25, 112) !important;
+    font-family: initial;
   }
 
-  h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+  h4 {
+    font-family: initial;
+  }
+
+  h5 {
+    font-style: italic;
+    font-family: initial;
+    color: rgb(25, 25, 112, 0.8) !important;
+  }
+
+  .navbar-brand {
+    font-size: 22px !important;
+  }
+  .nav-item {
+    font-size: 20px !important;
   }
 
   .text {
@@ -35,6 +41,7 @@ body {
     border-radius: 50%;
     height: 250px;
     width: 250px;
+    margin-top: 110px;
   }
   .intro {
     display: flex;
@@ -47,54 +54,54 @@ body {
     display: grid;  
     position:relative;
     margin: auto;
-    column-gap: 50px;
+    column-gap: 0px;
     row-gap: 50px;
-    grid-template-areas: "aboutme aboutme aboutme"
-                        "experience mywork contactme";
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 250px 250px;
+    grid-template-areas: "aboutme aboutme"
+                        "experience experience"
+                        "mywork contactme";
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 250px 250px 250px;
     justify-content: center;
 
   }
  .aboutme {
     grid-area: aboutme;
-    grid-column: span 3;
+    grid-column: span 2;
     background-color: azure;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 5%;
-    margin-left: 200px;
-    margin-right: 200px;
-
+    margin-top: 40px;
+    
  }
  .experience {
     grid-area: experience;
-    background-color: azure;
-    padding-top: 20px;
+    grid-column: span 2;
+    background-color: #ADD8E6;
+    padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 5%;
+    
  }
  
 
  .mywork {
     grid-area: mywork;
     background-color: #B6D0E2;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 5%;
+    
 
 
  }
  .contactme {
     grid-area: contactme;
-    background-color: #ADD8E6;
-    padding-top: 20px;
+    background-color: #B6D0E2;
+    padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 5%;
+  
 
 
  }
@@ -106,12 +113,13 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
     background-color: #4682B4;
-    border-radius: 5%;
+    
 
  }
  p {
-    font-size: 18px;
+    font-size: 19px;
     text-align: justify;
+    font-family: initial;
  }
 
   a:link {
