@@ -1,23 +1,16 @@
-html {
+body {
   background-image: url("../image/background1.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  
 }
-  .header {
-    display: flex;
-    justify-content: center;
-  }
-  .header li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 60px 20px 60px;
-
-    }
-        
+       
     
   h1 {
     text-transform: uppercase;
     color: midnightblue;
-    font-family: 'SCalligraffitti', sans-serif;
+    font-family: 'Palatino', sans-serif;
     font-weight: bold;
     
   }
@@ -31,10 +24,11 @@ html {
     
   }
 
-  h4 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  .text {
+    font-family: 'Palatino', sans-serif;
     font-style: italic;
-    color: midnightblue;
+    font-weight: bold;
+    color: rgba(243, 243, 244, 0.7);
     
   }
   .profimg {
@@ -46,7 +40,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 10px;
     margin-bottom: 30px;
   }
   .grid {
@@ -66,6 +60,7 @@ html {
     grid-area: aboutme;
     grid-column: span 3;
     background-color: azure;
+    padding-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
@@ -76,6 +71,7 @@ html {
  .experience {
     grid-area: experience;
     background-color: azure;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
@@ -85,6 +81,7 @@ html {
  .mywork {
     grid-area: mywork;
     background-color: #B6D0E2;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
@@ -94,6 +91,7 @@ html {
  .contactme {
     grid-area: contactme;
     background-color: #ADD8E6;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5%;
@@ -105,7 +103,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     background-color: #4682B4;
     border-radius: 5%;
