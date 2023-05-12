@@ -5,9 +5,15 @@ body {
   
   
 }
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(25, 25, 112) !important;
+  font-family: initial;
+}
        
     
-  h2 {
+  h3 {
     text-transform: uppercase;
     color: rgb(25, 25, 112) !important;
     font-family: initial;
@@ -120,7 +126,8 @@ body {
  }
 
   a:link {
-    text-decoration: none;   
+    text-decoration: none;  
+    color: midnightblue; 
     font-style: italic;
 
   }
@@ -129,6 +136,9 @@ body {
   }
   a:hover {
     color:orange;
+  }
+  a:active {
+    color: midnightblue;
   }
   .socialmedia {
     padding: 0.5rem;
