@@ -59,7 +59,7 @@ body {
     grid-template-areas: "aboutme aboutme"
                         "experience experience"
                         "mywork contactme";
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 400px));
     grid-template-rows: 250px 250px 250px;
     justify-content: center;
 
@@ -99,7 +99,7 @@ body {
     grid-area: contactme;
     background-color: #B6D0E2;
     padding-top: 35px;
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 40px;
   
 
@@ -144,3 +144,8 @@ body {
   .socialmedia:hover {
   color:orange;
   }
+@media only screen and (max-width: 600px) {
+  [class*="col-2"] {
+    width: 100%;
+  }
+}
