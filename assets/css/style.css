@@ -20,9 +20,7 @@ h2 {
     font-family: initial;
   }
 
-  h4 {
-    font-family: initial;
-  }
+ 
 
   h5 {
     font-style: italic;
@@ -44,6 +42,11 @@ h2 {
     height: 250px;
     width: 250px;
     margin-top: 90px;
+  }
+
+  .lighbulb{
+    height: 3px;
+    width: 3px;
   }
   .intro {
     display: flex;
@@ -92,9 +95,10 @@ h2 {
     margin:1rem 0rem 1rem 0;
     background:none;
     border:none;
-    color: rgb(218, 147, 15);
+    color:rgb(58, 56, 56);
   }
-  .socialmedia svg {height:30px;width:30px;}
+
+  .socialmedia svg {height:26px;width:26px;}
   .socialmedia:hover {
   color:orange;
   }
