@@ -38,13 +38,7 @@ h2 {
     
   }
 
-  .text {
-    font-family: 'Palatino', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: rgba(243, 243, 244, 0.7);
-    
-  }
+   
   .profimg {
     border-radius: 50%;
     height: 250px;
@@ -80,7 +74,7 @@ h2 {
     text-decoration: none;  
     color: midnightblue; 
     font-family: initial;
-    font-style: italic;
+    
     font-size: 20px;
 
   }
