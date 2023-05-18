@@ -1,5 +1,5 @@
 body {
-  background-image: url("../image/a2c6c7f46929b98b6bd2c8508b92dcb2.jpg");
+  background-image: url("../image/unnamed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -48,7 +48,7 @@ h2 {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    margin-top: 110px;
+    margin-top: 70px;
   }
   .intro {
     display: flex;
@@ -99,7 +99,7 @@ h2 {
     border:none;
     color: rgb(225, 151, 14);
   }
-  .socialmedia svg {height:20px;width:20px;}
+  .socialmedia svg {height:28px;width:28px;}
   .socialmedia:hover {
   color:orange;
   }
