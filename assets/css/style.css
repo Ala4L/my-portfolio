@@ -1,109 +1,101 @@
 body {
   background-image: url("../image/poverkhnost-zhioltyi-seryi-fon.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  
-  
-  
+  background-repeat: no-repeat;  
 }
-
+/*fonts*/
 h2 {
   text-transform: uppercase;
   color: white !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-       
     
-  h3 {
-    text-transform: uppercase;
-    color: rgb(58, 56, 56) !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+h3 {
+  text-transform: uppercase;
+  color: rgb(58, 56, 56) !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
- 
+h5 {
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255, 0.6) !important;
+}
 
-  h5 {
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255, 0.6) !important;
-  }
+p {
+  font-size: 22px;
+  text-align: justify;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-  .navbar-brand {
-    font-size: 22px !important;
-  }
-  .nav-item {
-    font-size: 20px !important;
-    
-  }
+.navbar-brand {
+  font-size: 22px !important;
+}
 
-   
-  .profimg {
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    margin-top: 90px;
-  }
+.nav-item {
+  font-size: 20px !important;
+}
 
- 
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;  
-  }
+.profimg {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-top: 90px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #4682B4;
+}
+
+/* links*/
+a:link {
+  text-decoration: none;  
+  color: midnightblue; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+}
+
+a:visited {
+  color: midnightblue;
+}
   
-
- .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    background-color: #4682B4;
-    
-
- }
- p {
-    font-size: 22px;
-    text-align: justify;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- }
-
-  a:link {
-    text-decoration: none;  
-    color: midnightblue; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    font-size: 22px;
-
-  }
-  a:visited {
-    color: midnightblue;
-  }
-  a:hover {
-    color:rgb(255, 166, 0);
-  }
-  a:active {
-    color: midnightblue;
-  }
-  .socialmedia {
-    padding: 0.5rem;
-    margin:1rem 0rem 1rem 0;
-    background:none;
-    border:none;
-    color:rgb(58, 56, 56);
-  }
-
-  .socialmedia svg {height:26px;width:26px;}
-  .socialmedia:hover {
+a:hover {
   color:rgb(255, 166, 0);
-  }
+}
 
-  ul {
-    list-style-type:none;
-    color: midnightblue;
-    font-size: 20px;
+a:active {
+  color: midnightblue;
+}
 
-  }
+.socialmedia {
+  padding: 0.5rem;
+  margin:1rem 0rem 1rem 0;
+  background:none;
+  border:none;
+  color:rgb(58, 56, 56);
+}
+
+.socialmedia svg {height:26px;width:26px;}
+.socialmedia:hover {
+  color:rgb(255, 166, 0);
+}
+
+ul {
+  list-style-type:none;
+  color: midnightblue;
+  font-size: 20px;
+}
   
