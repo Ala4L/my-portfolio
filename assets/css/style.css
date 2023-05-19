@@ -10,21 +10,21 @@ body {
 h2 {
   text-transform: uppercase;
   color: white !important;
-  font-family: initial;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
        
     
   h3 {
     text-transform: uppercase;
     color: rgb(58, 56, 56) !important;
-    font-family: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
  
 
   h5 {
     font-style: italic;
-    font-family: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255, 0.6) !important;
   }
 
@@ -44,10 +44,7 @@ h2 {
     margin-top: 90px;
   }
 
-  .lighbulb{
-    height: 3px;
-    width: 3px;
-  }
+ 
   .intro {
     display: flex;
     flex-direction: column;
@@ -68,24 +65,24 @@ h2 {
 
  }
  p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
-    font-family: initial;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
   a:link {
     text-decoration: none;  
     color: midnightblue; 
-    font-family: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-    font-size: 20px;
+    font-size: 22px;
 
   }
   a:visited {
     color: midnightblue;
   }
   a:hover {
-    color:orange;
+    color:rgb(255, 166, 0);
   }
   a:active {
     color: midnightblue;
@@ -100,7 +97,7 @@ h2 {
 
   .socialmedia svg {height:26px;width:26px;}
   .socialmedia:hover {
-  color:orange;
+  color:rgb(255, 166, 0);
   }
 
   ul {
